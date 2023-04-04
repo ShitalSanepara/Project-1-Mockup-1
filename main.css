@@ -1,0 +1,65 @@
+.menu a{
+  display: block;
+  font-size: 15px; 
+  color: #000; 
+  text-transform: capitalize;
+}
+.tab h1{
+    text-transform: uppercase;
+}
+.sidebar{
+    border-right: 1px solid #eee;
+    padding-right: 0;
+}
+.submenu .index{
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 8px 25px;
+}
+.submenu button{
+    border: none;
+    background: #06623b;
+    padding: 8px 25px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.sidedata{
+    font-weight: 600;
+}
+.submenu button:hover{
+    background-color: #000;
+}
+.tab table{
+    text-align: left;
+    margin-top: 15px;
+}
+.tab button.save{
+    background-color:#06623b;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 15px;
+    margin-top: 25px;
+}
+.tab button.save:hover{
+    background-color: #000;
+}
+.tab .form-switch .form-check-input{
+    cursor: pointer;
+}
+.tab th{
+    background-color: #e1e1e1;
+    padding: 5px;
+    margin-right: 10px;
+}
+.tab .nav-pills .nav-link{
+    color: #000;
+    border-radius: 0;
+}
+.tab .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #000;
+    background: transparent;
+    border-right: 3px solid #6205e4;
+    font-weight: 800px;
+}
